@@ -1,6 +1,5 @@
 import "./navbar.css";
 import { useState, useEffect } from "react";
-import WindowWidth from "./WindowSize";
 
 function Navbar() {
   const [navLinkVisibility, setVisibility] = useState(false);
@@ -12,6 +11,8 @@ function Navbar() {
   const handleMouseLeave = () => {
     setVisibility(false);
   };
+
+  
 
 
 
